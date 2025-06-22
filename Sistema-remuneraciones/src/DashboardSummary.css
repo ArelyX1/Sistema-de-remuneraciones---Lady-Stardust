@@ -1,0 +1,150 @@
+.dashboard {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9fbe7;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Header superior */
+.welcome-header {
+  width: 100%;
+  background-color: #e8f5e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 3rem;
+  box-sizing: border-box;
+}
+
+.welcome-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #2e7d32;
+}
+
+/* Botón estilo verde */
+.welcome-buttons .btn {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #2e7d32;
+  background: transparent;
+  color: #2e7d32;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.welcome-buttons .btn:hover {
+  background: #2e7d32;
+  color: white;
+}
+
+/* Contenido principal */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #eef8ea;
+  padding: 1.5rem;
+  border-right: 2px solid #d0e3cd;
+}
+
+.sidebar-title {
+  font-weight: bold;
+  color: #2e7d32;
+  text-align: center;
+}
+
+/* Área central */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Bienvenida */
+.welcome-title-main {
+  font-size: 1.7rem;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.welcome-subtitle-main {
+  color: #388e3c;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Tarjetas resumen */
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1.7px solid #d0e3cd;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Últimas acciones */
+.actions-section {
+  background-color: #fff;
+  border: 1.7px solid #d0e3cd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.actions-title {
+  font-size: 1.1rem;
+  color: #2e7d32;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.actions-list {
+  list-style: none;
+  padding-left: 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.actions-list li {
+  margin-bottom: 0.3rem;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.sidebar-btn {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  color: #2e7d32;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.4rem 0.2rem;
+  transition: 0.2s;
+}
+
+.sidebar-btn:hover {
+  background-color: #d0e3cd;
+  border-radius: 6px;
+  padding-left: 0.4rem;
+}
