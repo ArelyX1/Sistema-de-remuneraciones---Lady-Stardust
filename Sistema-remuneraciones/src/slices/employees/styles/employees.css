@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+.pagar-empleados-page-gothic {
+  background: #18141a;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.gothic-title {
+  color: #e0b0ff;
+  font-family: 'UnifrakturCook', cursive, serif;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 12px #e0b0ff66;
+}
+
+.empleados-list-gothic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.empleado-card-gothic {
+  background: #222;
+  border: 2px solid #e0b0ff;
+  border-radius: 14px;
+  padding: 1.2rem 2rem;
+  min-width: 240px;
+  box-shadow: 0 0 18px #e0b0ff33;
+  cursor: pointer;
+  font-family: 'UnifrakturCook', cursive, serif;
+  color: #fff;
+  transition: all 0.2s;
+  position: relative;
+}
+.empleado-card-gothic.selected {
+  background: #2a1a2f;
+  border-color: #fff;
+  box-shadow: 0 0 32px #e0b0ff99;
+}
+.empleado-card-header {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #e0b0ff;
+}
+.empleado-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.98rem;
+}
+.activo {
+  color: #baffc9;
+}
+.inactivo {
+  color: #ffbaba;
+}
+
+.pagar-btn-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+.gothic-pay-btn {
+  background: #18141a;
+  color: #e0b0ff;
+  border: 2px solid #e0b0ff;
+  font-family: 'UnifrakturCook', cursive, serif;
+  font-size: 1.1rem;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 16px #e0b0ff55;
+  letter-spacing: 0.12em;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.gothic-pay-btn:hover {
+  background: #111;
+  color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 32px #e0b0ff99;
+}
