@@ -1,0 +1,110 @@
+.factura-simulador-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f8f8fb;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #0001;
+}
+
+.factura-form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.factura-form input {
+  flex: 1 1 200px;
+  padding: 0.7rem;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.factura-form button {
+  padding: 0.7rem 2rem;
+  background: #222;
+  color: #e0b0ff;
+  border: none;
+  border-radius: 8px;
+  font-family: 'UnifrakturCook', cursive, serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.factura-form button:hover {
+  background: #e0b0ff;
+  color: #222;
+}
+
+.factura-container {
+  background: #fff;
+  border: 2px solid #e0b0ff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 24px #e0b0ff44;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.factura-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #e0b0ff;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.factura-logo {
+  display: flex;
+  align-items: center;
+}
+.factura-logo-text {
+  font-family: 'UnifrakturCook', cursive, serif;
+  font-size: 2rem;
+  color: #e0b0ff;
+}
+.factura-empresa-info,
+.factura-datos {
+  font-size: 0.95rem;
+  color: #333;
+  margin-left: 1.5rem;
+}
+.factura-datos strong {
+  color: #a34ddd;
+}
+
+.factura-receptor,
+.factura-detalle,
+.factura-totales {
+  margin-bottom: 1.2rem;
+}
+.factura-receptor h4,
+.factura-detalle h4 {
+  margin-bottom: 0.5rem;
+  color: #a34ddd;
+}
+.factura-detalle table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+.factura-detalle th,
+.factura-detalle td {
+  border: 1px solid #e0b0ff;
+  padding: 0.5rem;
+  text-align: center;
+}
+.factura-totales {
+  text-align: right;
+  font-size: 1.1rem;
+}
+.factura-totales div {
+  margin-bottom: 0.2rem;
+}
+.factura-footer {
+  border-top: 1px solid #e0b0ff;
+  padding-top: 0.7rem;
+  font-size: 0.95rem;
+  color: #666;
+  text-align: center;
+  margin-top: 1.5rem;
+}
